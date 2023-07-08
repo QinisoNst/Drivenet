@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Institutions.uniSA.k.kzn">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Profile"
+        android:textColor="#E87021"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/line" />
+    <RelativeLayout
+        android:id="@id/RelativeLayout1"
+        android:layout_below="@id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Application Info"
+            android:textColor="#E87021"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hh"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_below="@id/sub"
+            android:layout_margin="10dp"
+            card_view:cardBackgroundColor="#E87021"
+            card_view:cardCornerRadius="18dp"
+            card_view:contentPadding="2dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                card_view:cardCornerRadius="18dp"
+                card_view:cardElevation="0dp"
+                card_view:contentPadding="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/RecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:divider="@null" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sss"
+        android:layout_below="@id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sub1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Course Info"
+            android:textColor="#E87021"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_below="@id/sub1"
+            android:layout_margin="10dp"
+            card_view:cardBackgroundColor="#E87021"
+            card_view:cardCornerRadius="18dp"
+            card_view:contentPadding="2dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                card_view:cardCornerRadius="18dp"
+                card_view:cardElevation="0dp"
+                card_view:contentPadding="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/RecyclerView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:divider="@null" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+</RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

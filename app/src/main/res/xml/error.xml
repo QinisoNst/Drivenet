@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edittext_number_1_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="166dp"
+        android:color="#FF0000"
+        android:ems="3"
+        android:fontFamily="@font/montserrat"
+        android:inputType="number" />
+</androidx.constraintlayout.widget.ConstraintLayout>

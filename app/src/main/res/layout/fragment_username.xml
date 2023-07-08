@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FCFCFC"
+    tools:context=".wantedcode.aps.Aps">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Username"
+        android:textColor="#E87021"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat"
+        android:text="Enter your username of choice"
+        android:textColor="#E87021"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imageVie3"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                card_view:cardCornerRadius="25dp"
+                card_view:cardElevation="5dp"
+                card_view:contentPadding="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="text" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RelativeLayout6"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ompone" />
+    </RelativeLayout>
+

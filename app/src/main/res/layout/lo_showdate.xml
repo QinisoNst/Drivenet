@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:contentPadding="15dp"
+    card_view:cardCornerRadius="30dp"
+    card_view:cardElevation="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/kk"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_toLeftOf="@id/imageView4"
+            android:textSize="13sp"
+            android:text="Sefako Makgatho Health Sciences University"
+            android:textColor="#E87021" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/imagea"
+            android:layout_below="@id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/faculty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12sp"
+                android:text="faculty"
+                android:textColor="#E87021" />
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/imagea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/headw"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/montserrat"
+            android:textSize="12sp"
+            android:text="Open"
+            android:textColor="#E87021" />
+
+        <TextView
+            android:id="@+id/head1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headw"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Open"
+            android:textColor="#E87021"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/headw2"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="12sp"
+            android:text="Closing"
+            android:textColor="#E87021" />
+
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headw2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Closing"
+            android:textColor="#E87021"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

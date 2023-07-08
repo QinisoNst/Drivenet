@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:background="#171A21"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <ImageView
+        android:id="@+id/ImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_hiw" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Hi!"
+            android:textColor="#E87021"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/welcomesub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcome"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Sign in to continue"
+            android:textColor="#E87021"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcomesub"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ic_highlights"
+            android:backgroundTint="#E87021"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_highlights"
+            android:backgroundTint="#E87021"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/prompt_password"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:shadowColor="#FFFFFF"
+            android:textColorHint="#000000" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_width="150dp"
+            android:layout_height="79dp"
+            android:layout_below="@id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            app:cardBackgroundColor="#E87021"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="3dp"
+            card_view:contentPadding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="250dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:background="#E87021"
+                    android:fontFamily="@font/montserrat"
+                    android:onClick="Login"
+                    android:text="Login"
+                    android:textColor="#171A21"
+                    android:textSize="29sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/ForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Forgot Password"
+            android:textColor="#E87021"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

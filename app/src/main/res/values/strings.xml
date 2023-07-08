@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Drivenet</string>
+
+    <string name="AdManifest">ca-app-pub-7957589642016076~5206200818</string>
+    <string name="Interstitial_ad_unit">ca-app-pub-7957589642016076/5808914935</string>
+    <string name="Banner_ad_unit">ca-app-pub-7957589642016076/9582554703</string>
+    <string name="rewarded_ad_unit_id">ca-app-pub-7957589642016076/6842455698</string>
+
+    <string name="no">
+        <!--
+    <string name="AdManifest">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="Interstitial_ad_unit">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="Banner_ad_unit">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="rewarded_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>
+        -->
+    </string>
+    <string name="yes">
+        <!--
+    <string name="AdManifest">ca-app-pub-7957589642016076~5206200818</string>
+    <string name="Interstitial_ad_unit">ca-app-pub-7957589642016076/5808914935</string>
+    <string name="Banner_ad_unit">ca-app-pub-7957589642016076/9582554703</string>
+    <string name="rewarded_ad_unit_id">ca-app-pub-7957589642016076/6842455698</string>
+        -->
+    </string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

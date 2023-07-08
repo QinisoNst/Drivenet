@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Institutions.uniSA.k.kzn">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Profile"
+        android:textColor="#E87021"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/line" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1" android:layout_below="@id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="65dp"
+            card_view:cardElevation="5dp"
+            card_view:contentPadding="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_centerInParent="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    card_view:srcCompat="@drawable/user" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:id="@+id/RelativeLayoutf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/card_view1">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="User"
+                android:textColor="#E87021"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textID"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="User"
+                android:layout_toRightOf="@id/text"
+                android:textColor="#E87021"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/line" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:divider="@null"
+        android:layout_below="@id/RelativeLayout1"
+        android:layout_marginTop="25dp"/>
+
+
+</RelativeLayout>

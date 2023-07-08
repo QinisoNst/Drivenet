@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    card_view:contentPadding="20dp"
+    card_view:cardBackgroundColor="#E87021"
+    card_view:cardCornerRadius="30dp"
+    card_view:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:text="Sefako Makgatho Health Sciences University"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "96425406386",
+    "firebase_url": "https://amanzi-zar-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "amanzi-zar",
+    "storage_bucket": "amanzi-zar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96425406386:android:55de69e86267a10cd3beab",
+        "android_client_info": {
+          "package_name": "com.amanzi.za"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96425406386-dis0u2qcjodsvoeen37d2bepvbl2r357.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB71JgoB7iezQDweaodI65-dWd3y40VTgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96425406386-dis0u2qcjodsvoeen37d2bepvbl2r357.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96425406386:android:1bcba7490b117ce9d3beab",
+        "android_client_info": {
+          "package_name": "com.amazni.za"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96425406386-dis0u2qcjodsvoeen37d2bepvbl2r357.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB71JgoB7iezQDweaodI65-dWd3y40VTgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96425406386-dis0u2qcjodsvoeen37d2bepvbl2r357.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96425406386:android:dccd480760ba6f3dd3beab",
+        "android_client_info": {
+          "package_name": "com.spu.res"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96425406386-dis0u2qcjodsvoeen37d2bepvbl2r357.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB71JgoB7iezQDweaodI65-dWd3y40VTgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96425406386-dis0u2qcjodsvoeen37d2bepvbl2r357.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

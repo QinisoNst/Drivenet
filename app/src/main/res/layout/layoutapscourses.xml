@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_view_priority4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelativeLayout1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/textView12"
+            android:text="600"
+            android:textColor="#E87021"
+            android:textColorLink="#0AFFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelativeLayout1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="My APS:"
+            android:textColor="#E87021"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelativeLayout1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:text="600"
+            android:textColor="#E87021"
+            android:textColorLink="#0AFFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelativeLayout1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/text_view_priority"
+            android:fontFamily="@font/montserrat"
+            android:text="Required APS:"
+
+            android:textColor="#E87021"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:fontFamily="@font/montserrat"
+            android:maxLines="1"
+            android:text="Bachelor of Education in Foundation Phase Teaching"
+            android:textColor="#E87021"
+            android:textSize="14sp" />
+
+     <RelativeLayout
+         android:id="@+id/RelativeLayout1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/text_view_title"
+         android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/kk" />
+
+         <TextView
+             android:id="@+id/text_view_description"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="5dp"
+             android:layout_toRightOf="@id/imageView5"
+             android:fontFamily="@font/montserrat"
+             android:text="Sol Plaatje University"
+             android:textColor="#C11C287B"
+             android:textSize="13sp" />
+     </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_view_description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelativeLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="See more"
+            android:textColor="#C11C287B"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

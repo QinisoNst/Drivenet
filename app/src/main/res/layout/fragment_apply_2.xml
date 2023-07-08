@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".wantedcode.Appling.Applying1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/sub2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/montserrat"
+            android:text="Apply"
+            android:textColor="#E87021"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/montserrat"
+            android:text="Please complete your Personal Information as requested below"
+            android:textColor="#E87021"
+            android:textSize="13sp" />
+        <RelativeLayout
+            android:layout_below="@id/textView1"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Marital Info"
+                android:textColor="#E87021"
+                android:textSize="18sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sue2"
+                 
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="#E87021"
+                card_view:cardCornerRadius="18dp"
+                card_view:contentPadding="2dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="18dp"
+                    card_view:cardElevation="0dp"
+                    card_view:contentPadding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:id="@+id/home1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+                                android:fontFamily="@font/montserrat"
+                                android:text="Marital Status"
+                                android:textColor="#E87021"
+                                android:textSize="13sp" />
+
+                            <EditText
+                                android:id="@+id/edittext_number_1"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:backgroundTint="#1C287f"
+                                android:fontFamily="@font/montserrat"
+                                android:inputType="text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/home2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/home1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+                                android:layout_toLeftOf="@id/edittext_number_2"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Maiden Names (Only if married):	"
+                                android:textColor="#E87021"
+                                android:textSize="13sp" />
+
+                            <EditText
+                                android:id="@+id/edittext_number_2"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:backgroundTint="#1C287f"
+                                android:fontFamily="@font/montserrat"
+                                android:inputType="text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_view1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/montserrat"
+                android:text="(2/3)"
+                android:textColor="#E87021"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homea"
+                android:fontFamily="@font/montserrat"
+                android:text="Matric Info"
+                android:textColor="#E87021"
+                android:textSize="18sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hh"
+                android:layout_margin="10dp"
+                android:layout_below="@id/sub1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#E87021"
+                card_view:cardCornerRadius="18dp"
+                card_view:contentPadding="2dp">
+                <androidx.cardview.widget.CardView
+                    card_view:cardElevation="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="18dp"
+                    card_view:contentPadding="10dp">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:id="@+id/home1a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@id/edittext_number_1a"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Activity Last Year"
+                                android:textColor="#E87021"
+                                android:textSize="13sp" />
+
+                            <EditText
+                                android:id="@+id/edittext_number_1a"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:backgroundTint="#1C287f"
+                                android:fontFamily="@font/montserrat"
+                                android:inputType="text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/home2a"
+                            android:layout_below="@id/home1a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@id/edittext_number_2a"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Highest Grade Passed"
+                                android:textColor="#E87021"
+                                android:textSize="13sp" />
+
+                            <EditText
+                                android:id="@+id/edittext_number_2a"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:backgroundTint="#1C287f"
+                                android:fontFamily="@font/montserrat"
+                                android:inputType="text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/home3a"
+                            android:layout_below="@id/home2a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+                                android:layout_toLeftOf="@id/edittext_number_3a"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Senior Secondary School"
+                                android:textColor="#E87021"
+                                android:textSize="13sp" />
+                            <EditText
+                                android:id="@+id/edittext_number_3a"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:backgroundTint="#1C287f"
+                                android:fontFamily="@font/montserrat"
+                                android:inputType="text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/home4a"
+                            android:layout_below="@id/home3a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+                                android:layout_toLeftOf="@id/edittext_number_4a"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Matric Date (YYYYMM)"
+                                android:textColor="#E87021"
+                                android:textSize="13sp" />
+
+                            <EditText
+                                android:id="@+id/edittext_number_4a"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+
+                                android:backgroundTint="#1C287f"
+                                android:fontFamily="@font/montserrat"
+                                android:inputType="number"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/home5a"
+                            android:layout_below="@id/home4a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+                                android:layout_toLeftOf="@id/edittext_number_5a"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Matriculation Type:"
+                                android:textColor="#E87021"
+                                android:textSize="13sp" />
+
+                            <EditText
+                                android:id="@+id/edittext_number_5a"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                 
+                                android:backgroundTint="#1C287f"
+                                android:fontFamily="@font/montserrat"
+                                android:inputType="text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view1"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/hh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                card_view:cardBackgroundColor="#E87021"
+                card_view:cardCornerRadius="14dp"
+                card_view:cardElevation="1dp"
+                card_view:contentPadding="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="#E87021"
+                        android:fontFamily="@font/montserrat"
+                        android:text="next"
+                        android:textColor="#ffffff" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

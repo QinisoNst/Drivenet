@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C11C287B"
+    >
+    <TextView
+        android:id="@+id/childItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:textColor="#ffffff"
+        android:text="dcfdfd"
+        android:textSize="20sp" />
+
+</RelativeLayout>
